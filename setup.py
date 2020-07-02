@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from EnsembleTrees import __version__
 
 setup(name='EnsembleTrees',
     version=__version__,
