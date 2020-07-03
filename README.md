@@ -1,7 +1,6 @@
 # Stochastic Threshold Model Trees
 ===
 
-Random Forest is a highly flexible and accurate machine learning method and is used in many situations. However, its nature makes it unsuitable for extrapolation prediction.
 The proposed method can provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
 
 ## Requirements
