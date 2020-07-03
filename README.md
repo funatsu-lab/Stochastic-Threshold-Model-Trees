@@ -4,6 +4,15 @@
 Random Forest is a highly flexible and accurate machine learning method and is used in many situations. However, its nature makes it unsuitable for extrapolation prediction.
 The proposed method can provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
 
+## Requirements
+- Python 3
+- [Numpy](https://numpy.org/)
+- [joblib](https://pypi.org/project/joblib/)
+- [pandas](https://pandas.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+
 ## Installation
 
 You can install the repository into your local environment by the following command.
