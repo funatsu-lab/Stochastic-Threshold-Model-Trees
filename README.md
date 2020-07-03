@@ -16,6 +16,10 @@ $ pip install git+https://github.com/funatsu-lab/Stochastic-Threshold-Model-Tree
 
 The module is imported and used as follows.
 
+As shown in the figure below, the proposed method makes predictions that reflect the trend of the sample near the extrapolation area.
+
+![1dim]()
+
 ```python
 from StochasticThresholdModelTree.regressor.stmt import StochasticThresholdModelTree
 from StochasticThresholdModelTree.threshold_selector import NormalGaussianDistribution
