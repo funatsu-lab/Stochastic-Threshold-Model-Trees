@@ -3,16 +3,14 @@ from EnsembleTrees import __version__
 
 setup(name='EnsembleTrees',
     version=__version__,
-    description='Fragment2vec - an appropriate algorithm for substructure representation in chemistry',
+    description='EnsembleTrees - a tree-based algorithm for extrapolation',
     classifiers=[
         'Programming Language :: Python :: 3.6',
-        'Topic :: Cheminformatics :: Featurization',
+        'Topic :: Cheminformatics :: Extrapolation',
     ],
-    url='https://github.com/funatsu-lab/frag2vec',
-    author='Shojiro Shibayama',
-    author_email='shojiro.shibayama@gmail.com',
-    license='BSD 3-clause',
+    url='https://github.com/funatsu-lab/Ensemble-trees',
+    author='Kohei Numata, Kenichi Tanaka',
+    author_email='knumata@chemsys.t.u-tokyo.ac.jp',
     packages=find_packages(),
-    install_requires=['numpy>=1.18', 'tqdm>=4.42', 'pytorch>=1.4',
-                     'torchvision>=0.5', 'rdkit>=2019.09', 'networkx>=2.4'],
+    install_requires=['numpy>=1.18'],
     )
