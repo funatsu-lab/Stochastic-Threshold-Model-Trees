@@ -18,7 +18,9 @@ The module is imported and used as follows.
 
 As shown in the figure below, the proposed method makes predictions that reflect the trend of the sample near the extrapolation area.
 
-![1dim]()
+![discontinuous_Proposed_5sigma](https://user-images.githubusercontent.com/49966285/86465964-ad039700-bd6d-11ea-80b0-8035fc726228.png)
+
+
 
 ```python
 from StochasticThresholdModelTree.regressor.stmt import StochasticThresholdModelTree
