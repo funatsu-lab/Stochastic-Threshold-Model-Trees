@@ -5,7 +5,7 @@ setup(name='Stochastic Threshold Model Tree',
     version=__version__,
     description='Stochastic Threshold Model Tree - a tree-based algorithm for extrapolation',
     classifiers=[
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Cheminformatics :: Extrapolation',
     ],
     url='https://github.com/funatsu-lab/Stochastic-Threshold-Model-Tree',
