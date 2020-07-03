@@ -12,9 +12,7 @@ You can install the repository into your local environment by the following comm
 $ pip install git+https://github.com/funatsu-lab/Stochastic-Threshold-Model-Tree.git
 ```
 
-## Usage
-
-The module is imported and used as follows.
+## Example
 
 As shown in the figure below, the proposed method makes predictions that reflect the trend of the sample near the extrapolation area.
 
@@ -22,6 +20,9 @@ As shown in the figure below, the proposed method makes predictions that reflect
 
 ![Sphere_Proposed_MLR_noise_scaling](https://user-images.githubusercontent.com/49966285/86466391-7d08c380-bd6e-11ea-879c-8e9b3f9ba493.png)
 
+## Usage
+
+The module is imported and used as follows.
 
 ```python
 from StochasticThresholdModelTree.regressor.stmt import StochasticThresholdModelTree
