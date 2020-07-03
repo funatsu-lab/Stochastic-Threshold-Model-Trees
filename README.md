@@ -7,10 +7,12 @@ The proposed method can provide reasonable extrapolation predictions for physico
 - Python 3
 - [Numpy](https://numpy.org/)
 - [joblib](https://pypi.org/project/joblib/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+
+## Requirements for notebook
 - [pandas](https://pandas.pydata.org/)
 - [matplotlib](https://matplotlib.org/)
 - [seaborn](https://seaborn.pydata.org/)
-- [scikit-learn](https://scikit-learn.org/stable/)
 
 ## Installation
 
