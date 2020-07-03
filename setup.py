@@ -12,5 +12,5 @@ setup(name='Stochastic Threshold Model Tree',
     author='Kohei Numata, Kenichi Tanaka',
     author_email='knumata@chemsys.t.u-tokyo.ac.jp',
     packages=find_packages(),
-    install_requires=['numpy>=1.17', 'joblib>=0.13'],
+    install_requires=['numpy', 'joblib', 'pandas', 'matplotlib', 'seaborn'],
     )
