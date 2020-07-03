@@ -21,7 +21,7 @@ You can install the repository into your local environment by the following comm
 $ pip install git+https://github.com/funatsu-lab/Stochastic-Threshold-Model-Tree.git
 ```
 
-## Example
+## Examples
 
 As shown in the figure below, the proposed method makes predictions that reflect the trend of the sample near the extrapolation area.
 
