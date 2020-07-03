@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
-from EnsembleTrees import __version__
+from StochasticThresholdModelTree import __version__
 
-setup(name='EnsembleTrees',
+setup(name='Stochastic Threshold Model Tree',
     version=__version__,
     description='Stochastic Threshold Model Tree - a tree-based algorithm for extrapolation',
     classifiers=[
