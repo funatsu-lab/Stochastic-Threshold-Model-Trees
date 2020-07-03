@@ -20,6 +20,7 @@ As shown in the figure below, the proposed method makes predictions that reflect
 
 ![discontinuous_Proposed_5sigma](https://user-images.githubusercontent.com/49966285/86465964-ad039700-bd6d-11ea-80b0-8035fc726228.png)
 
+![Sphere_Proposed_MLR_noise_scaling](https://user-images.githubusercontent.com/49966285/86466391-7d08c380-bd6e-11ea-879c-8e9b3f9ba493.png)
 
 
 ```python
