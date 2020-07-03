@@ -5,7 +5,7 @@ from .regression_tree import RegressionTree
 import copy
 
 
-class StochasticThresholdModelTree():
+class StochasticThresholdModelTrees():
     def __init__(
         self,
         n_estimators=100,
