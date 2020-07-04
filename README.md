@@ -5,14 +5,14 @@ The proposed method can provide reasonable extrapolation predictions for physico
 
 ## Requirements
 - Python 3
-- [Numpy](https://numpy.org/)
-- [joblib](https://pypi.org/project/joblib/)
-- [scikit-learn](https://scikit-learn.org/stable/)
+- [Numpy](https://numpy.org/) >= 1.17
+- [joblib](https://pypi.org/project/joblib/) == 0.13
+- [scikit-learn](https://scikit-learn.org/stable/) == 0.21
 
 ## Requirements for notebook
-- [pandas](https://pandas.pydata.org/)
-- [matplotlib](https://matplotlib.org/)
-- [seaborn](https://seaborn.pydata.org/)
+- [pandas](https://pandas.pydata.org/) >= 0.25
+- [matplotlib](https://matplotlib.org/) >= 3.1
+- [seaborn](https://seaborn.pydata.org/) >= 0.9
 
 ## Installation
 
