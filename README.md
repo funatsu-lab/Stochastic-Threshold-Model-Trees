@@ -1,6 +1,6 @@
 # Stochastic Threshold Model Trees
 
-Stochastic Threshold Model Trees provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
+Stochastic Threshold Model Trees provides reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
 
 ## Requirements
 - Python 3
@@ -34,13 +34,13 @@ As shown in the figure below, the proposed method makes predictions that reflect
 The module is imported and used as follows.
 
 ```python
-from StochasticThresholdModelTree.regressor.stmt import StochasticThresholdModelTree
-from StochasticThresholdModelTree.threshold_selector import NormalGaussianDistribution
-from StochasticThresholdModelTree.criterion import MSE
+from StochasticThresholdModelTrees.regressor.stmt import StochasticThresholdModelTrees
+from StochasticThresholdModelTrees.threshold_selector import NormalGaussianDistribution
+from StochasticThresholdModelTrees.criterion import MSE
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-model = StochasticThresholdModelTree(
+model = StochasticThresholdModelTrees(
   n_estimators=100, # The number of regression trees to create
   criterion=MSE(), # Criteria for setting divisional boundaries
   regressor=LinearRegression(), # Regression model applied to each terminal node
