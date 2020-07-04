@@ -1,5 +1,4 @@
 # Stochastic Threshold Model Trees
-===
 
 Stochastic Threshold Model Trees provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
 
