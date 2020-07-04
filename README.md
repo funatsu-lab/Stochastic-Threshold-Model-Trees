@@ -1,7 +1,7 @@
 # Stochastic Threshold Model Trees
 ===
 
-The proposed method can provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
+Stochastic Threshold Model Trees provide reasonable extrapolation predictions for physicochemical and other data that are expected to have a certain degree of monotonicity.
 
 ## Requirements
 - Python 3
