@@ -18,7 +18,7 @@ Stochastic Threshold Model Trees provides reasonable extrapolation predictions f
 You can install the repository into your local environment by the following command.
 
 ```bash
-$ pip install git+https://github.com/funatsu-lab/Stochastic-Threshold-Model-Tree.git
+$ pip install git+https://github.com/funatsu-lab/Stochastic-Threshold-Model-Trees.git
 ```
 
 ## Examples
