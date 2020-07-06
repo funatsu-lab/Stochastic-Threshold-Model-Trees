@@ -9,6 +9,7 @@ from ..threshold_selector import NormalGaussianDistribution
 
 
 class Node():
+    """Class for actual model constructing."""
     def __init__(
         self,
         criterion=None,

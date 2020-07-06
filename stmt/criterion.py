@@ -3,6 +3,9 @@ from sklearn.metrics import mean_squared_error
 
 
 class MSE():
+    """Class for partitioning based on MSE between the mean and measured
+    values of the sample group.
+    """
     def __init__(self):
         pass
 
@@ -14,6 +17,9 @@ class MSE():
 
 
 class MSE_by_model():
+    """Class for partitioning based on MSE between the predicted values of 
+    the regression model applied to the sample group and measured values.
+    """
     def __init__(self, model):
         self.model = model
 
