@@ -6,6 +6,10 @@ import copy
 
 
 class StochasticThresholdModelTrees():
+    """
+    Class of the Stochastic Threshold Model Trees.
+    - Extended ensemble method based on tree-based regressors.
+    """
     def __init__(
         self,
         n_estimators=100,
@@ -41,6 +45,7 @@ class StochasticThresholdModelTrees():
         self.verbose = verbose
 
     def fit(self, X, y):
+        """Build a forest of trees from the training set (X, y)."""
         X, y = check_X_y(X, y, ['csr', 'csc'])
 
         random_state = self.check_random_state(self.random_state)
@@ -52,6 +57,11 @@ class StochasticThresholdModelTrees():
             for i in range(self.n_estimators))
 
     def predict(self, X, return_std=False):
+        """Predict regression target for X.
+
+        The predicted regression target of an input sample is computed as the
+        mean or median predicted regression targets of the trees in the forest.
+        """
         X = check_array(X, accept_sparse='csr')
 
         pred = np.array([tree.predict(X).tolist() for tree in self.forest])
@@ -89,6 +99,7 @@ class StochasticThresholdModelTrees():
         return tree
 
     def count_selected_feature(self):
+        """Count the number of features used to divide the tree."""
         return np.array(
             [tree.count_feature() for tree in self.forest])
 

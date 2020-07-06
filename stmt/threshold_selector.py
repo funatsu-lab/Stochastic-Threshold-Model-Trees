@@ -2,6 +2,7 @@ import numpy as np
 
 
 class MidPoint():
+    """Class for selecting the midpoints for a candidate for the threshold."""
     def __init__(self):
         pass
 
@@ -10,6 +11,9 @@ class MidPoint():
 
 
 class NormalGaussianDistribution():
+    """Class for stochastically determining candidate for the threshold using 
+    a normal distribution.
+    """
     def __init__(self, n_sigma):
         self.n_sigma = n_sigma
 

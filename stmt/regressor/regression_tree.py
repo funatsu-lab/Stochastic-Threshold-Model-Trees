@@ -4,6 +4,7 @@ from .node import Node
 
 
 class RegressionTree():
+    """Class for regression tree."""
     def __init__(
         self,
         criterion=None,
