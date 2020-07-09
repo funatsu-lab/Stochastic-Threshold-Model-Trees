@@ -29,6 +29,9 @@ As shown in the figure below, the proposed method makes predictions that reflect
 
 ![Sphere_Proposed_MLR_noise_scaling](https://user-images.githubusercontent.com/49966285/86466391-7d08c380-bd6e-11ea-879c-8e9b3f9ba493.png)
 
+![1dim_comparison](https://user-images.githubusercontent.com/49966285/86991390-f0c92700-c1d9-11ea-9438-357b580fa1b7.png)
+
+
 ## Usage
 
 The module is imported and used as follows.
