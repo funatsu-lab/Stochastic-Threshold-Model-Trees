@@ -63,5 +63,8 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test) # Model predictions
 ```
 
+## Reference:
+[Stochastic Threshold Model Trees: A Tree-Based Ensemble Method for Dealing with Extrapolation](https://arxiv.org/abs/2009.09171)
+
 ## License
 MIT
