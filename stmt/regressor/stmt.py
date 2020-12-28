@@ -146,7 +146,7 @@ class StochasticThresholdModelTrees():
 
     def get_params(self, deep=True):
         return {
-            'n_estimator': self.n_estimators,
+            'n_estimators': self.n_estimators,
             'criterion': self.criterion,
             'regressor': self.regressor,
             'threshold_selector': self.threshold_selector,
